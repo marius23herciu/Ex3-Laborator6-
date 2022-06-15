@@ -16,10 +16,10 @@ namespace Ex3_Laborator6_
 
             unsprezeceD.Tipareste();
 
-            unsprezeceD.GetPremiantul();
+            Elev elevPremiant = unsprezeceD.GetPremiantul();
 
             Console.WriteLine("Elevul premiant este:");
-            unsprezeceD.GetPremiantul().Tipareste();
+            elevPremiant.Tipareste();
         }
     }
 }
