@@ -40,7 +40,7 @@ namespace Ex3_Laborator6_
             for (int i = 0; i < listaElevi.Length; i++)
             {
                 double medieCurenta = listaElevi[i].GetMedie();
-                if (medieCurenta>medieMax)
+                if (medieCurenta > medieMax)
                 {
                     medieMax = medieCurenta;
                     elevPremiant = listaElevi[i];
